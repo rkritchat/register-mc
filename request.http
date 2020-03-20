@@ -2,8 +2,20 @@ POST http://localhost:8080/update
 Content-Type: application/json
 
 {
-  "firstName": "Kritchat",
-  "lastName": "Kri",
+  "id": 2,
+  "firstName": "BBB",
+  "lastName": "AAA",
+  "age": 28
+}
+
+###
+
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "firstName": "awerwr",
+  "lastName": "Rojanap",
   "age": 28
 }
 
